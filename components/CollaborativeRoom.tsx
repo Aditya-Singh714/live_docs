@@ -42,6 +42,7 @@ const CollaborativeRoom = ({
       } catch (error) {
         console.error(error);
       }
+      setLoading(false);
     }
   };
 
